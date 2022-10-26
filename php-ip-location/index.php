@@ -4,4 +4,4 @@ $var= unserialize(file_get_contents('http://www.geoplugin.net/php.gp?ip='.$_SERV
 //var_dump ($var);
 
 echo"El código del país es: ".$var['geoplugin_countryCode'];
-echo"El nombre del país es: ".$var['geoplugin_countryName'];
+echo"<br>El nombre del país es: ".$var['geoplugin_countryName'];
