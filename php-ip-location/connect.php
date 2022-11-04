@@ -1,6 +1,6 @@
 <?php
 $port = 1433;
-$servername = "dositp.database.windows.net"; . $port;
+$servername = "dozitp.database.windows.net"; . $port;
 $database = "Migracion_de_mysql";
 $username = "student";
 $password = "admin1234)";
