@@ -8,7 +8,7 @@ echo "La ip es: ".$code;
 //echo"<br> El nombre del país es: ".$var['geoplugin_countryName'];
 
 $curl=curl_init();
-$url="https://backendapp-daniels-02.azurewebsites.net/php-ip-location/select.php?code=".$code;
+$url="https://backendapp-daniels-01.azurewebsites.net/api-ip-geografica/api.php?cod=".$code;
 curl_setopt($curl, CURLOPT_URL, $url);
 
 curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "GET");
