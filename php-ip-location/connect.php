@@ -3,7 +3,7 @@ $port = 1433;
 $servername = "dozitp.database.windows.net"; . $port;
 $database = "Migracion_de_mysql";
 $username = "student";
-$password = "admin1234)";
+$password = "admin1234?)";
 
 try {
  // $conn = new PDO("mysql:host=$servername;dbname=world", $username, $password);
