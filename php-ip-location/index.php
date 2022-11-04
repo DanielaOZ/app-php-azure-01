@@ -3,8 +3,8 @@
 $var= unserialize(file_get_contents('http://www.geoplugin.net/php.gp?ip='.$_SERVER['REMOTE_ADDR']));
 //var_dump ($var);
 
+echo "La ip es: ".$var['geoplugin_request'];
 $code=$var['geoplugin_countryCode'];
-echo "La ip es: ".$code;
 //echo"<br> El nombre del país es: ".$var['geoplugin_countryName'];
 
 $curl=curl_init();
