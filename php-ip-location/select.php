@@ -1,5 +1,5 @@
 <?php
-  include ('connect.php');
+  include "connect.php";
   $co=$_GET['codigo'];
   $sql ="SELECT country.Name AS Pais, Continent AS Continente, Region, Code, Code2, city.Name AS Ciudad FROM world.country 
   INNER JOIN city ON country.capital=city.ID WHERE country.Code2='$co'";
@@ -16,4 +16,3 @@ foreach($conn->query($sql) as $row){
   }
 
  
-?>
