@@ -7,7 +7,7 @@ $code=$var['geoplugin_countryCode'];
 //echo"<br> El nombre del país es: ".$var['geoplugin_countryName'];
 
 $curl=curl_init();
-$url="php-ip-location/select.php?code=".$code;
+$url="192.168.100.10/php-ip-location/select.php?code=".$code;
 curl_setopt($curl, CURLOPT_URL, $url);
 
 curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "GET");
