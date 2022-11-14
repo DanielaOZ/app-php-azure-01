@@ -1,4 +1,5 @@
 <?php
+header('Access-Control-Allow-Origin: *');
 $port = 1433;
 $servername = "dozitp.database.windows.net," .$port;
 $database = "Migracion_de_mysql";
